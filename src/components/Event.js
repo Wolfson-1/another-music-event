@@ -6,7 +6,7 @@ export default function Event( {event} ) {
       }}
     
   return (
-    <div className ='eventDiv'>
+    <div className ='event'>
       <img src={event.lineup} alt='img not found'></img>
       <div>{event.name}</div>
       <div>{event.date}</div>
