@@ -11,7 +11,7 @@ export default function Header() {
                 <button>The Team</button>
             </div>
             <h1>
-                Not Another Music Event.ldn
+                anothermusicevent_ldn
             </h1>
         </div>
   )

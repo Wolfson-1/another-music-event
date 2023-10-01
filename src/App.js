@@ -2,6 +2,7 @@ import Header from './components/header';
 import About from './components/About';
 import Events from './components/Events';
 import TheTeam from './components/TheTeam';
+import './App.css';
 
 function App() {
   const blurb = "This is the blurb for what the event is about";
@@ -9,12 +10,13 @@ function App() {
   const team = [{name: 'DJ Reece', Img:null, desc:"The rootin tootinust DJ around"}, {name: 'Demarco', Img:null, desc:"The irish Wizard"}]
 
   return (
-    <div>
+    <div className="app">
       <Header />
       <About blurb = {blurb} />
       <Events events = {events}/>
       <TheTeam team = {team}/>
     </div>
+    
     
   );
 }
